@@ -16,7 +16,9 @@ from telegram.ext import (
 # =====================================================
 # MASUKKAN TOKEN BOT TELEGRAM DI SINI
 # =====================================================
-TOKEN = "8769119495:AAEYTAwvz9hsHcuViuTTkC_ijc6mT6iAUDA"
+import os
+
+TOKEN = os.getenv("8769119495:AAEYTAwvz9hsHcuViuTTkC_ijc6mT6iAUDA")
 
 # =====================================================
 # MENU MODERN
